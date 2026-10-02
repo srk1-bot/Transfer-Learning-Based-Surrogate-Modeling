@@ -16,7 +16,7 @@ This repository contains the official implementation and code accompanying the r
 This repository provides Python modules and notebooks for transfer learning-based surrogate modeling in nonlinear time-history response analysis (NLTHA) of structures. It includes model architecture definitions, data preprocessing/wave utilities, analysis scripts for structural response evaluation, and jupyter notebooks to run the programs.
 
 ### Key Features
-- **Network Models (`network/`)**: PyTorch-based neural network architecture implementations for surrogate modeling.
+- **Network Models (`network/`)**: PyTorch-based masked neural network architecture implementations for surrogate modeling. The details of the archtecture is mentioned in the preprint above.
 - **Wave Utilities (`wave_util/`)**: Utility functions for processing and generating earthquake ground motion acceleration waves.
 - **Analysis Modules (`analysis/`)**: Scripts and tools for nonlinear seismic response simulations and model evaluation.
 
